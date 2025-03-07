@@ -33,6 +33,7 @@ const features = [
   },
 ];
 
+// Update how we create the MotionCard to use the newer API
 const MotionCard = motion(Card);
 
 const Index = () => {
