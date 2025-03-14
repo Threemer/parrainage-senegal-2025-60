@@ -66,6 +66,12 @@ export default {
           'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))'
+        },
+        // Nouvelles couleurs sénégalaises
+        senegal: {
+          green: '#00853F',
+          yellow: '#FFCD00',
+          red: '#E31B23',
         }
       },
       borderRadius: {
