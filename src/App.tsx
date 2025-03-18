@@ -11,6 +11,7 @@ import ElectoralFilePage from "./pages/admin/ElectoralFilePage";
 import SponsorshipPeriodPage from "./pages/admin/SponsorshipPeriodPage";
 import RegisterPage from "./pages/voter/RegisterPage";
 import CandidatePage from "./pages/candidate/CandidatePage";
+import ModelsDiagram from "./pages/ModelsDiagram";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,9 @@ const App = () => (
           
           {/* Routes espace candidat */}
           <Route path="/candidate" element={<CandidatePage />} />
+          
+          {/* Route modèles UML */}
+          <Route path="/models" element={<ModelsDiagram />} />
           
           {/* Route 404 */}
           <Route path="*" element={<NotFound />} />
